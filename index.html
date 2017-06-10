@@ -6,23 +6,23 @@
     <title>Easy Course Webpage</title>
   </head>
   <body>
-	<iframe  src="https://docs.google.com/document/d/1heupis9Z-QW6DWI_84KfLSdLvScpscct0Ax_VcGm02Y/pub?embedded=true" style="width:100%;height:100%;position:absolute;border:0;"></iframe>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<iframe  srcdoc="" style="width:100%;height:100%;position:absolute;border:0;"></iframe>
   </body>
 </html>
 
-<script src="js/jquery-1.8.3.min.js"></script>
 <script>
     $(function() {
-        $.get("https://docs.google.com/document/d/1heupis9Z-QW6DWI_84KfLSdLvScpscct0Ax_VcGm02Y/pub?embedded=true", function(html) {
-        var contents = $("iframe").contents();
+        $.get("https://docs.google.com/document/d/1WUsQ_Kaa_tJljadPpHO2AFwvOAIqrYFS_zehUd6iCVk/pub?embedded=true", function(html) {
+            var contents = $("iframe").contents();
 
-        contents.find("html").html(html);
+            contents.find("html").html(html);
 
-        setTimeout(function() {
-            contents.find('a[href^="http://"]').attr("target", "_blank");
-            contents.find('a[href^="https://"]').attr("target", "_blank");
-        }, 1000); 
+            setTimeout(function() {
+                contents.find('a[href^="http://"]').attr("target", "_blank");
+                contents.find('a[href^="https://"]').attr("target", "_blank");
+            }, 1000); // Actually not sure if timeout is required here...
+        });
     });
-});
 </script>
 	
