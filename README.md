@@ -13,6 +13,6 @@ This template is designed to be an easy method of creating and maintaining a cou
 
 If you have any trouble using the template, please open an issue or send me an email.
 
-Please note, due to the nature of embedded google docs, some links will only work if opened in a new tab. If a link is not loading, please try opening it in a new tab. If you know how to fix this, please let me know by opening an issue. Thanks!
+Please note, due to the nature of embedded google docs, some links will only work if opened in a new tab. If a link is not loading, please try opening it in a new tab.
 
 ![image](https://cloud.githubusercontent.com/assets/8205702/25932722/d6f1b424-35c7-11e7-9174-1c00da391c6e.png)
