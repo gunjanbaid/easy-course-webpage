@@ -1,6 +1,6 @@
 ## About
 
-This template was designed as an easy method of creating and maintaining a course website. You can view the site [here](https://gunjanbaid.github.io/easy-course-webpage/). There is also an approximate screenshot attached below, in case the site is rendering weirdly on some browsers.
+This template is designed to be an easy method of creating and maintaining a course website. You can view the site [here](https://gunjanbaid.github.io/easy-course-webpage/). There is also an approximate screenshot attached below, in case the site is rendering weirdly on some browsers.
 
 ## How to use this template for your course website:
 
